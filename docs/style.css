@@ -2,13 +2,13 @@
 body {
     font-family: Merriweather, Georgia;
     background-color: #222;
-    color: #aaa;
+    color: #ccc;
     padding: 2%;
 }
 
 a {
     transition: all 0.5s;
-    color: #aaa;
+    color: #ffc;
 }
 
 a:hover {
