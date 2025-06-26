@@ -9,4 +9,5 @@ jobs:
         uses: actions/checkout@v4
       - run: ls ${{ github.workspace }}
       - run: pwd
+      - run: date
       - run: echo "🍏 This job's status is ${{ job.status }}."
