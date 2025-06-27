@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <title>Test page</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-    <h1>Test page</h1>
-    <p>
-        <a href="https://docs.github.com/en/actions">GitHub Actions</a> test page (static deployment)
-    </p>
-</body>
-
+    <head>
+        <title>TEST PAGE</title>
+        <script>
+            let lang = navigator.language || navigator.userLanguage;
+            switch(lang.substring(0,2)) {
+                case 'pl':
+                    window.location='/pl';
+                    break;
+                default:
+                    window.location='/en/';
+            }
+        </script>
+    </head>
+    <body>
+        <a href="/pl/">PL</a>
+        <a href="/en/">EN</a>
+    </body>
 </html>
